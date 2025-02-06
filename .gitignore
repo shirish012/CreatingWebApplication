@@ -4,26 +4,24 @@
 /bin/
 /obj/
 
+# Ignore build artifacts
+*.dll
+*.pdb
+*.exe
+*.log
+*.tmp
+
+# Ignore source link and cache files
+*.sourcelink.json
+*.cache
+
+# Ignore assembly info files in obj directories
+obj/Debug/
+obj/Release/
+
 # Ignore user-specific files
 .vs/
 .idea/
 .vscode/
 *.user
 *.suo
-
-# Ignore configuration files
-appsettings.Development.json
-appsettings.Local.json
-
-# Ignore package-related files
-*.nupkg
-/packages/
-
-# Ignore log and temp files
-*.log
-*.tmp
-
-# Ignore build artifacts
-*.dll
-*.exe
-*.pdb
