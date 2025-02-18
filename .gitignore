@@ -25,3 +25,6 @@ obj/Release/
 .vscode/
 *.user
 *.suo
+
+# Ignore the 'logs' folder where log files are stored
+/logs/
