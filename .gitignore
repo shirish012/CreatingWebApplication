@@ -28,3 +28,7 @@ obj/Release/
 
 # Ignore the 'logs' folder where log files are stored
 /logs/
+
+SourceCode/CreatingWebApplication/CWA/bin/
+SourceCode/CreatingWebApplication/CWA/logs/
+SourceCode/CreatingWebApplication/CWA/obj
