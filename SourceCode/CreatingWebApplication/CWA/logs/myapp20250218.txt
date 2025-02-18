@@ -1,0 +1,39 @@
+2025-02-18 14:31:00.388 +05:30 [INF] User profile is available. Using '/Users/shirish/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-02-18 14:31:00.484 +05:30 [INF] Now listening on: http://localhost:5094
+2025-02-18 14:31:00.486 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-18 14:31:00.487 +05:30 [INF] Hosting environment: Development
+2025-02-18 14:31:00.487 +05:30 [INF] Content root path: /Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA
+2025-02-18 14:31:33.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/ - null null
+2025-02-18 14:31:33.523 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-02-18 14:31:33.532 +05:30 [INF] Executing endpoint 'CWA.Controllers.HomeController.Index (CWA)'
+2025-02-18 14:31:33.552 +05:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CWA.Controllers.HomeController (CWA).
+2025-02-18 14:31:33.554 +05:30 [INF] This is an informational message.
+2025-02-18 14:31:33.555 +05:30 [WRN] This is a warning message.
+2025-02-18 14:31:33.555 +05:30 [ERR] This is an error message.
+2025-02-18 14:31:33.562 +05:30 [INF] Executing ViewResult, running view Index.
+2025-02-18 14:31:33.641 +05:30 [INF] Executed ViewResult - view Index executed in 79.1925ms.
+2025-02-18 14:31:33.643 +05:30 [INF] Executed action CWA.Controllers.HomeController.Index (CWA) in 90.6546ms
+2025-02-18 14:31:33.643 +05:30 [INF] Executed endpoint 'CWA.Controllers.HomeController.Index (CWA)'
+2025-02-18 14:31:33.647 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/ - 200 null text/html; charset=utf-8 132.8981ms
+2025-02-18 14:31:33.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-02-18 14:31:33.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/CWA.styles.css?v=hReutpVJTPoqYdNSfp4_W1utbhXZAjeoWSSQ_apUINs - null null
+2025-02-18 14:31:33.652 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-02-18 14:31:33.653 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/lib/jquery/dist/jquery.min.js - null null
+2025-02-18 14:31:33.654 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-02-18 14:31:33.654 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-02-18 14:31:33.660 +05:30 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/wwwroot/js/site.js'
+2025-02-18 14:31:33.660 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 6.3345ms
+2025-02-18 14:31:33.661 +05:30 [INF] Sending file. Request path: '/CWA.styles.css'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/obj/Debug/net8.0/scopedcss/bundle/CWA.styles.css'
+2025-02-18 14:31:33.661 +05:30 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/wwwroot/css/site.css'
+2025-02-18 14:31:33.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/CWA.styles.css?v=hReutpVJTPoqYdNSfp4_W1utbhXZAjeoWSSQ_apUINs - 200 1072 text/css 10.6281ms
+2025-02-18 14:31:33.662 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 10.7152ms
+2025-02-18 14:31:33.663 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-02-18 14:31:33.663 +05:30 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/wwwroot/lib/jquery/dist/jquery.min.js'
+2025-02-18 14:31:33.663 +05:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/shirish/Documents/Shirish/Projects/CWA/Development/CreatingWebApplication/SourceCode/CreatingWebApplication/CWA/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-02-18 14:31:33.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 10.2006ms
+2025-02-18 14:31:33.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 9.9217ms
+2025-02-18 14:31:33.664 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 12.3193ms
+2025-02-18 14:31:33.765 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5094/favicon.ico - null null
+2025-02-18 14:31:33.766 +05:30 [INF] The file /favicon.ico was not modified
+2025-02-18 14:31:33.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5094/favicon.ico - 304 null image/x-icon 1.5013ms
+2025-02-18 14:31:50.277 +05:30 [INF] Application is shutting down...

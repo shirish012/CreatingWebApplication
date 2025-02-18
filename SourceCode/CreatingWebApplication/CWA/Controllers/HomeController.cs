@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using CWA.Models;
+using Serilog;
 
 namespace CWA.Controllers;
 
@@ -15,6 +16,10 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        // Log different types of messages to test
+        Log.Information("This is an informational message.");
+        Log.Warning("This is a warning message.");
+        Log.Error("This is an error message.");
         return View();
     }
 

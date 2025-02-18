@@ -1,4 +1,15 @@
+using Serilog;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Configure Serilog (Logging setup)
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()                           // Logs to the console
+    .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)  // Logs to a file with daily rolling
+    .CreateLogger();
+
+// Set up Serilog as the logging provider
+builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -25,3 +36,6 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+// Ensure all logs are flushed before the app exits
+Log.CloseAndFlush();
